@@ -79,7 +79,51 @@ header h1 {
     clear: both;
 }
 
+.dev-skills {
+    display: flex;
+    flex-flow: column nowrap;
+    border: 2px dotted #D96E30;
+    padding: 1rem;
+    background-color:#F2913D;
+    margin-top: 1rem;
+    background-color: #BF755A;
+    font-size: 1.3rem;
+}
 
+.dev-skills h2 {
+    border-bottom: 1px dashed #D96E30;
+    text-align: center;
+    margin: 0;
+}
+
+.dev-skills-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    border: 2px dotted #D96E30;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.dev-back-skills {
+    text-align: center;
+    display: flex;
+    flex-flow: column nowrap;
+    border: 3px solid #F2913D;
+    border-radius: 1rem;
+    background-color: #F2913D;
+    flex-basis: 45%;
+}
+
+.dev-front-skills {
+    text-align: center;
+    display: flex;
+    flex-flow: column nowrap;
+    border: 3px solid #F2913D;
+    background-color: #F2913D;
+    border-radius: 1rem;
+    flex-basis: 45%;
+}
 
 .about {
     font-size: 1.5rem;
